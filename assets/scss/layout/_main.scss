@@ -1,0 +1,35 @@
+@import '../abstract/mixins';
+
+.arti-base{
+    @include base_article;
+
+    img{
+        height: 40em;
+        padding: 4em 0em 2em 0em;
+    }
+
+    h2{
+        font-weight: 700;
+        padding-bottom: .5em;
+    }
+
+    .parrafo{
+        width: 45%;
+        font-weight: 400;
+        padding-bottom: 5em;
+    }
+}
+
+.nosotros{
+    padding: 5em;
+    font-weight: 700;
+}
+
+.venta{
+    padding: 5em;
+    font-weight: 700;
+
+    h1{
+        padding-bottom: 1em;
+    }
+}
